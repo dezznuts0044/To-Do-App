@@ -7,10 +7,27 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.white,
     flex: 1,
   },
+  skipContainer: {
+    alignItems: "flex-end",
+    paddingRight: 25,
+    paddingTop: 25,
+  },
   itemContainer: {
+    paddingTop: 38,
     width: DeviceDimensions.screenWidth,
-    justifyContent: "center",
     alignItems: "center",
+  },
+  
+  desContainer: {
+    marginTop: -77 * DeviceDimensions.heightRatio,
+  },
+  firstItemContainer: {
+    paddingTop: 38,
+    width: DeviceDimensions.screenWidth,
+    alignItems: "center",
+  },
+  firstDesContainer: {
+    marginTop: -77 * DeviceDimensions.heightRatio,
   },
   lottieStyle: {
     width: 300,
@@ -21,6 +38,18 @@ const styles = StyleSheet.create({
     alignContent: "center",
     bottom: 20,
     alignItems: "center",
+  },
+  dotContainer: {
+    flexDirection: "row",
+    justifyContent: "center",
+    marginBottom: 20,
+  },
+  dot: {
+    height: 8,
+    width: 8,
+    borderRadius: 4,
+    backgroundColor: "gray",
+    marginHorizontal: 4,
   },
   flatListContainer: {
     flexGrow: 1,
@@ -36,6 +65,7 @@ const styles = StyleSheet.create({
     fontWeight: "300",
     textAlign: "center",
     paddingHorizontal: 15,
+    color: Colors.grey,
   },
   skipText: { color: Colors.primaryColor, fontWeight: "bold" },
   welcomeText: {

@@ -15,7 +15,7 @@ export default function createAccount() {
       <View style={styles.welcomeScreenImageView}>
         <Image
           style={styles.onBoardingImage}
-          source={require("@/assets/images/OnboardingImage.png")}
+          source={require("@/assets/images/onBoadring/OnboardingImage3.png")}
         />
       </View>
       <View style={{ alignSelf: "center", alignItems: "center" }}>
